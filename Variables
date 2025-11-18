@@ -1,0 +1,25 @@
+#=========
+#Variables
+#=========
+
+#Create a variable:
+example_variable="hey guys!"
+#to make the variable appear, print it: print(example_variable)
+
+#Variable types:
+string="sequence of characters, like a sentence"
+integer="whole numbers, like 3 and 5"
+float="number w/ decimal, like 3.14 or 6.7"
+boolean="either true or false"
+
+#Printing a variable w/ text:
+var=example
+print(f"this is an {var} bro, chillax!")
+
+#Typecasting a variable:
+print("typecasting is changing the type of a variable")
+ans1=str(123.456)
+ans2=int("that is incorrect")
+ans3=float(3)
+ans4=bool(-5)
+  #converting into a boolean will always be true unless it's blank
