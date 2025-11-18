@@ -1,0 +1,13 @@
+#========
+#Function
+#========
+
+#Create a function:
+def ans(a,b):   #a,b is the parameter
+  result=a+b    
+  return result
+print(ans(5,5)) #this is the argument
+  #Format:
+#def name(parameters
+#  code
+#  return text
