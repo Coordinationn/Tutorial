@@ -1,0 +1,41 @@
+#====
+#Math
+#====
+
+#Mathematical Operators:
+#| Operator      | Name                       | Example                                |
+#|---------------|----------------------------|----------------------------------------|
+#|  +  or  +=    | Addition                   |  x += 3  →  x = x + 3                  |
+#|  -  or  -=    | Subtraction                |  x -= 2  →  x = x - 2                  |
+#|  /  or  /=    | Division                   |  x /= 4  →  x = x / 4                  |
+#|  *  or  *=    | Multiplication             |  x *= 5  →  x = x * 5                  |
+#|  %  or  %=    | Modulus (remainder)        |  x %= 3  → remainder after  x / 3      |
+#|  **  or  **=  | Exponentiation             |  x **= 2  →  x = x^2                   |
+#|  //  or  //=  | Floor Division             |  x //= 3  →  x = x // 3  (rounds down) |
+
+#Build in math functions:
+rounding_to_nearest_whole=round(987.654)
+  #round(number,decimal places)
+  #E.g. x=3.14159, round(x,2)=3.14
+find_absolute_value=abs(-55)
+raise_exponentially=pow(8,2)
+  #pow(number,power)
+  #Would return 64
+find_largest_num=max(1,2,3)
+find_smallest_num=min(1,2,3)
+  #can also be variable
+
+#After importing Math module
+import math
+get_pi=math.pi
+get_euler_num=math.e
+round_up_is_ceil=math.ceil(3.14159)
+round_down_is_floor=math.floor(99.99)
+round_normally=round(654.321,2)
+  #round(number,decimal places)
+square_root=math.sqrt(2)
+  #can also be a variable
+
+#Shorthand assignment operator:
+answer=10;answer+=2
+  #basically means answer=answer+2
