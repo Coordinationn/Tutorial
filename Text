@@ -4,7 +4,7 @@
 
 #Comments are made like this! Just add a hashtag (#) in front of your text!
 
-#Printing text:
+#Print text:
 print("This is fun!")
 
 #Seperate statements one one line:
