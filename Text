@@ -1,0 +1,11 @@
+#====
+#Text
+#====
+
+#Comments are made like this! Just add a hashtag (#) in front of your text!
+
+#Printing text:
+print("This is fun!")
+
+#Seperate statements one one line:
+Hello=3;print(Hello)
