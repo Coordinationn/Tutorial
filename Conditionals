@@ -1,0 +1,41 @@
+#============
+#Conditionals
+#============
+
+#If else statements:
+example=10
+examplee=10.01
+if example==examplee:
+  print("yes")
+elif example==-10:
+  print("what")
+else:
+  print("no")
+  #Format:
+#if condition:
+  #action
+#elif condition:
+  #action  #add more elif's when necesary
+#else:
+  #action
+
+#Logical operators
+  or=one_condition_must_be_true
+age=14
+height_in=71
+if age>=13 or height_in>=55:
+  print("able to sit in front seat")
+  and=both_condition_must_be_true
+age=14
+has_permission=true
+if age>=13 and has_permission:  #both conditions have to be met in order for access
+  print("access accepted")
+  not=not_true
+banned=false
+if not banned:
+  print("access accepted")
+
+#Ternary operator (conditional operator)
+access=1
+status="accepted" if access==1 else "denied"  #a conditional on one line; you can use elifs too
+print(status)
