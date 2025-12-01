@@ -1,0 +1,10 @@
+#===========
+#  Strings  
+#===========
+
+#F-strings:
+adj='good'
+print(f"This is an {adj} repo")
+
+#String Methods:
+  Find Length of 
