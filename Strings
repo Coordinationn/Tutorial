@@ -6,5 +6,8 @@
 adj='good'
 print(f"This is an {adj} repo")
 
-#String Methods:
-  Find Length of 
+#String methods:
+  #Find length of string:
+  exa='hello'
+  len(exa)
+  #
