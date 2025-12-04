@@ -1,6 +1,6 @@
-#=========
-#Variables
-#=========
+#=============
+#  Variables
+#=============
 
 #Create a variable:
 example_variable="hey guys!"
