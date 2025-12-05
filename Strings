@@ -6,14 +6,35 @@
 adj='good'
 print(f"This is an {adj} repo")
 
+#Format specifiers (for f-strings)
+  #f"{variable:flags}"    <--They go inside f-strings
+  #Round to n decimal places
+    #f"{variable:.nf}"    <--rounds variable to n decimal places
+  #Add spaces before variable                                      }
+    #f"{variable:n}"    <--the string will be n characters long    } If the variable is long
+  #Add zeros before variable (zero padding)                        } enough, nothing will change
+    #f"{variable:0n}"                                              }
+  # Alignment
+    #Left alignment
+      #f"{variable:<n}"    }
+    #Right alignment       } 
+      #f"{variable:>n}"    } The whole string will be n characters long, alligned using spaces
+    #Center alignment      } 
+      #f"{variable:^n}"    }
+  #Show if variable is positive or negative
+    #f"{variable:+}"
+    #Will display + in front of # if positive, - if negative
+  #Thousand separator
+    #f"{variable:,}"
+
 #String methods:
   #Find length of string (returns an integer)
     example_variable='hello nice to meet you'
     len(example_variable)
   #Find first occurrence of something  #}
-    example_variable.find("e")                      #} Will return -1
+    example_variable.find("e")         #} Will return -1
   #Find last occurence of something    #} if not found
-    example_variable.rfind("e")                     #}
+    example_variable.rfind("e")        #}
   #Capitalize first letter of string and lowercase the rest
     example_variable.capitalize()
   #Converts every letter of string to uppercase
