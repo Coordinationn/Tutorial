@@ -1,6 +1,6 @@
-#========
-#Function
-#========
+#============
+#  Function
+#============
 
 #Create a function:
 def ans(a,b):   #a,b is the parameter
