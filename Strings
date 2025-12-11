@@ -14,7 +14,7 @@ print(f"This is an {adj} repo")
     #f"{variable:n}"    <--the string will be n characters long    } If the variable is long
   #Add zeros before variable (zero padding)                        } enough, nothing will change
     #f"{variable:0n}"                                              }
-  # Alignment
+  #Alignment
     #Left alignment
       #f"{variable:<n}"    }
     #Right alignment       } 
@@ -28,34 +28,44 @@ print(f"This is an {adj} repo")
     #f"{variable:,}"
 
 #String methods:
-  #Find length of string (returns an integer)
-    example_variable='hello nice to meet you'
-    len(example_variable)
-  #Find first occurrence of something  #}
-    example_variable.find("e")         #} Will return -1
-  #Find last occurence of something    #} if not found
-    example_variable.rfind("e")        #}
-  #Capitalize first letter of string and lowercase the rest
-    example_variable.capitalize()
-  #Converts every letter of string to uppercase
-    example_variable.upper()
-  #Converts every letter of string to lowercase
-    example_variable.lower()
-  #Check if all characters of string are digits (returns True, otherwise False)
+
+#Find length of string (returns an integer)
+example_variable='hello nice to meet you'
+len(example_variable)
+
+#Find first occurrence of something    #}
+example_variable.find("e")             #}       
+                                       #} Will return -1 if not found
+#Find last occurence of something      #}
+example_variable.rfind("e")            #}
+
+#Capitalize first letter of string and lowercase the rest
+example_variable.capitalize()
+
+#Convert every letter of string to uppercase
+example_variable.upper()
+
+#Convert every letter of string to lowercase
+example_variable.lower()
+
+#Check if all characters of string are digits (returns True, otherwise False)
     example_variable.isdigit()
-  #Check if all characters of string are letters
+
+#Check if all characters of string are letters
     example_variable.isalpha()
-  #Count how many times a certain character appears
+
+#Count how many times a certain character appears
     example_variable.count("e")  #counts how many times "e" appears in the string
-  #Replacing a character with another
+
+#Replacing a character with another
     example_variable.replace("meet", "meat")  #output: hello nice to meat you; replaces meet with meat
 
 More_string_methods=print(help(str))
 
 #Indexing:
   #variable or "string"[start: end: step]
-  text="python"
-  text[0:3:2]    #output: pt
+text="python"
+print(text[0:3:2])    #output: pt
   # p  y  t  h  o  n
   # 0  1  2  3  4  5  <-- starts at 0
   # ✓  X  ✓  X  X  X  <--step is 2, so every 2nd character is in the output; end is 3 so 3 characters will be selected
