@@ -1,0 +1,42 @@
+#=========
+#  Loops
+#=========
+
+#While loops:
+x=0
+while x<5:    #<--while x is less than 5, conditions below will run
+  print(x)
+  x+=1    #<--adds 1 to x while x is less than 5
+
+#While not loops:
+password="password123"    #<--this is the inputted password
+while not password == "password1234":    #<--password123 is the correct password
+  password=input("Enter Password: ")    #<--asks you for the password when you get it wrong
+print("Access Granted!")    #<--prints when password is correct
+
+#For loops:
+for num in range(5):
+  print(num)    #<--for numbers in range of 5 (0-4), print them
+  #Result: 0 1 2 3 4
+
+#Range function:
+  #range(start, stop, step)
+  #Generates a sequence of numbers
+  #See for loops section for an example in use
+
+#More important keywords:
+exit_whole_program=exit()
+exit_loop=break
+skip_current_round=continue
+do_nothing=pass
+
+#Nested loops:
+  #loop inside a loop
+for i in range(2):
+    for j in range(2):
+        print(i,j)
+  #results
+#  i=0--> j=0 → 0 0
+#         j=1 → 0 1
+#  i=1--> j=0 → 1 0
+#         j=1 → 1 1
