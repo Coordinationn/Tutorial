@@ -62,7 +62,7 @@ example_variable.lower()
 
 More_string_methods=print(help(str))
 
-#Indexing:
+#Indexing/slicing:
   #variable or "string"[start: end: step]
 text="python"
 print(text[0:3:2])    #output: pt
