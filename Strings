@@ -9,9 +9,9 @@ print(f"This is an {adj} repo")
 #Format specifiers (for f-strings)
   #f"{variable:flags}"    <--They go inside f-strings
   #Round to n decimal places
-    #f"{variable:.nf}"    <--rounds variable to n decimal places
+    #f"{variable:.nf}"    <--Rounds variable to n decimal places
   #Add spaces before variable                                      }
-    #f"{variable:n}"    <--the string will be n characters long    } If the variable is long
+    #f"{variable:n}"    <--The string will be n characters long    } If the variable is long
   #Add zeros before variable (zero padding)                        } enough, nothing will change
     #f"{variable:0n}"                                              }
   #Alignment
@@ -62,12 +62,12 @@ example_variable.lower()
 
 More_string_methods=print(help(str))
 
-#Indexing/slicing:
+#Indexing/slicing (see lists section too):
   #variable or "string"[start: end: step]
 text="python"
 print(text[0:3:2])    #output: pt
   # p  y  t  h  o  n
-  # 0  1  2  3  4  5  <-- starts at 0
-  # ✓  X  ✓  X  X  X  <--step is 2, so every 2nd character is in the output; end is 3 so 3 characters will be selected
+  # 0  1  2  3  4  5  <--Starts at 0
+  # ✓  X  ✓  X  X  X  <--Step is 2, so every 2nd character is in the output; end is 3 so 3 characters will be selected
   #Can leave parts blank (e.g., text[::3]
   #If the step is -1, the string gets reversed
