@@ -2,3 +2,11 @@
 #  Lists  
 #=========
 
+#Create a list:
+example_list_with_GPUs = ["GeForce 5080", "Radeon 9070 XT", "Arc B580"]    #}
+example_list_with_nums= [1, 2, 3, 4, 5]                                    #} Surround with square brakets and seperate with commas 
+mixed_example_list= [True, 4090, "UHD is Ultra High Definition", 1.23]     #}
+
+#Index (access items; see strings section too):
+fruits = ["apple", "banana", "pear"]
+print(fruits[2])    #Output: pear
