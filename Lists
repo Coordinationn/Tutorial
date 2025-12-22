@@ -3,10 +3,35 @@
 #=========
 
 #Create a list:
-example_list_with_GPUs = ["GeForce 5080", "Radeon 9070 XT", "Arc B580"]    #}
-example_list_with_nums= [1, 2, 3, 4, 5]                                    #} Surround with square brakets and seperate with commas 
-mixed_example_list= [True, 4090, "UHD is Ultra High Definition", 1.23]     #}
+example_list_with_GPUs = [                      #}
+"GeForce 5080", "Radeon 9070 XT", "Arc B580"    #} Multi-line lists are more readable
+]                                               #}
 
-#Index (access items; see strings section too):
+example_list_with_nums = [1, 2, 3, 4, 5]    #<--Single line lists are also good
+
+mixed_example_list= [True, 4090, "UHD is Ultra High Definition", 1.23]    #<--Surround text with square brackets and separate with commas
+
+#Index (access items; see strings section too) and Slice (cut certain items):
 fruits = ["apple", "banana", "pear"]
 print(fruits[2])    #Output: pear
+  #string or variable[start:end:stop]
+  #Starts at 0
+text = "python"
+print(text[0:3:2])    #output: pt
+  # p  y  t  h  o  n
+  # 0  1  2  3  4  5  <--Starts at 0
+  # ✓  X  ✓  X  X  X  <--Step is 2, so every 2nd character is in the output; end is 3 so 3 characters will be selected
+  #Can leave parts blank (e.g., text[::3]
+  #If the step is -1, the string gets reversed
+
+#Modify lists:
+example_list = [
+"RTX 6000 Pro Blackwell", 
+"Ryzen 9 9800X3D", 
+"Core i9-14900k"
+]
+  #Change existing item:
+#Each item has an index— 0-->"RTX 6000 Pro Blackwell", 1-->"Ryzen 9 9800X3D", 2-->"Core i9-14900k"
+example_list[0] = "Threadripper Pro 7995WX"    #Replaces "RTX 6000 Pro Blackwell" w/ "Threadripper Pro 7995WX"
+#Format— list[index] = new_string_or_variable
+
