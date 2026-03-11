@@ -4,7 +4,7 @@
 
 #Text:
 print("this is how you print text lol")
-a = 9; b = 10; c = a+b; print(c)    #<-- seperate statements in one line w/ semicolons (;) but it's discouraged
+a = 9; b = 10; c = a+b; print(c)    #<--seperate statements in one line w/ semicolons (;) but it's discouraged
 
 #F-strings:
 adj='good'
