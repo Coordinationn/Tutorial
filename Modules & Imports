@@ -1,0 +1,29 @@
+#=====================
+#  Modules & Imports  
+#=====================
+
+#Import module:
+import module_name
+
+#Import specific item from module:
+from module_name import item_name
+
+#Useful modules:
+  #| Name      | Adds                        |
+  #------------|-----------------------------|
+  #| math      |  extra math functions       |
+  #| random    |  random numbers/choices     |
+  #| time      |  delay/timing               |
+  #| os        |  file system info           |
+  #| sys       |  system level info          |
+
+#AI/ML modules:
+  #| Name      | Adds                        |
+  #------------|-----------------------------|
+  #| numpy      |  extra math functions       |
+  #| pandas    |  random numbers/choices     |
+  #| matplotlib      |  delay/timing               |
+  #| scikit-learn        |  file system info           |
+  #| tensorflow
+  #| torch            |
+  #| pytorch          |
