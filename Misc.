@@ -1,0 +1,9 @@
+#=================
+#  Miscellaneous 
+#=================
+
+#Check your version:
+import sys; print(sys.version)
+
+#Exit program:
+exit()
